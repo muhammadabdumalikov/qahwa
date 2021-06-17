@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "title",
+  "info": {
+    "name": "content",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "descriptions": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
